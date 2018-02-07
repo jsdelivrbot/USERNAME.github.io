@@ -21,6 +21,7 @@ function draw() {
    } else {
        x = 0;
    }
+   stroke(color(0, 255, 0));
    while(x<= width){
      ellipse(x, y, circleDiameter, circleDiameter);
      x = x + circleDiameter;  
